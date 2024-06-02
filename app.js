@@ -1,19 +1,16 @@
-window.onload = function() {
-    console.log('Hello World');
+console.log('hello world');
+
+window.addEventListener('load', function() {
+    console.log('window loaded');
+});
+
+global.name = 'John Doe';
+
+function getName() {
+    return global.name;
 }
 
-function add(a, b) {
-    return a + b;
+function setName(newName) {
+    global.name = newName;
 }
 
-function subtract(a, b) {    
-    return a - b;
-}
-
-function multiply(a, b) {
-    return a * b;
-}
-
-function divide(a, b) {
-    return a / b;
-}
