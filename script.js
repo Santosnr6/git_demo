@@ -1,9 +1,9 @@
 window.addEventListener('load', function() {
-    console.log('The page has fully loaded!');
+    console.log('The page has been changed');
 });
 
-function add(a, b) {
-    return a + b;
+function getRootValue(number) {
+    return Math.sqrt(number);
 }
 
 function subtract(a, b) {
