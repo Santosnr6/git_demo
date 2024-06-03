@@ -10,6 +10,10 @@ function subtract(a, b) {
     return a - b;
 }
 
+function getSquared(a) {
+    return a * a;
+}
+
 function multiply(a, b) {
     return a * b;
 }
@@ -23,8 +27,4 @@ let person = 'Jesper';
 
 function getName() {
     return person;
-}
-
-function setName(newName) {
-    person = newName;
 }
